@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-// import { Switch, Route } from "react-router-dom";
-import looking_over_ledge from "./images/Big_Wave_Day/looking_over_ledge.JPG";
+import Big_Sur from "./images/camping:bigsur:cimbing/people_BigSur_Clouds.JPG";
 import logo from "./logo.svg";
 import "./App.css";
 import PictureContainer from "./containers/PictureContainer";
@@ -10,7 +9,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={looking_over_ledge} className="App-logo" alt="logo" />
+          <img id="home-image" src={Big_Sur} alt="logo" />
         </header>
       </div>
     );
