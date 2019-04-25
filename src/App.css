@@ -1,6 +1,5 @@
 .App {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-content: center;
   background-color: aquamarine;
@@ -15,10 +14,10 @@
   z-index: 1000;
 }
 
-#home-image {
+.home-image {
   margin: 1rem;
-  height: 500px;
-  width: 630px;
+  height: 200px;
+  width: 330px;
 }
 
 .App-header {

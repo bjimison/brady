@@ -12,10 +12,10 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img id="home-image" src={Big_Sur} alt="logo" />
-          <img id="home-image" src={above_the_clouds} alt="logo" />
-          <img id="home-image" src={less_mtn} alt="logo" />
-          <img id="home-image" src={naked_trees} alt="logo" />
+          <img className="home-image" src={Big_Sur} alt="logo" />
+          <img className="home-image" src={above_the_clouds} alt="logo" />
+          <img className="home-image" src={less_mtn} alt="logo" />
+          <img className="home-image" src={naked_trees} alt="logo" />
         </header>
       </div>
     );
