@@ -3,6 +3,7 @@ import Big_Sur from "./images/camping:bigsur:cimbing/people_BigSur_Clouds.JPG";
 import above_the_clouds from "./images/camping:bigsur:cimbing/above_the_clouds.JPG";
 import less_mtn from "./images/camping:bigsur:cimbing/less_mtn.JPG";
 import naked_trees from "./images/camping:bigsur:cimbing/naked_trees.JPG";
+import people from "./images/camping:bigsur:cimbing/people.JPG";
 import logo from "./logo.svg";
 import "./App.css";
 import PictureContainer from "./containers/PictureContainer";
@@ -16,6 +17,7 @@ class App extends Component {
           <img className="home-image" src={above_the_clouds} alt="logo" />
           <img className="home-image" src={less_mtn} alt="logo" />
           <img className="home-image" src={naked_trees} alt="logo" />
+          <img className="home-image" src={people} alt="logo" />
         </header>
       </div>
     );
