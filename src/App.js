@@ -7,6 +7,7 @@ import people from "./images/camping:bigsur:cimbing/people.JPG";
 import logo from "./logo.svg";
 import "./App.css";
 import PictureContainer from "./containers/PictureContainer";
+import { Switch, Route, withRouter, Link } from "react-router-dom";
 
 class App extends Component {
   render() {
@@ -19,6 +20,9 @@ class App extends Component {
           <img className="home-image" src={naked_trees} alt="logo" />
           <img className="home-image" src={people} alt="logo" />
         </header>
+        <Switch>
+          <Route path="/pictures" component={PictureContainer} />
+        </Switch>
       </div>
     );
   }
