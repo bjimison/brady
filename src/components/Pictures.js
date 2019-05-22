@@ -10,7 +10,7 @@ class Pictures extends Component {
   render() {
     return (
       <div>
-        <h2>Pictures</h2>
+        <h2 className="title">Pictures</h2>
         <img className="non-show-image" src={less_mtn} alt="logo" />
         <img className="non-show-image" src={angry_montara} alt="logo" />
         <img className="non-show-image" src={angry_grey_whale} alt="logo" />
