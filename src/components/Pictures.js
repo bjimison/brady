@@ -13,25 +13,28 @@ class Pictures extends Component {
       <div>
         <h2 className="title">Pictures</h2>
         <BrowserRouter>
-          <div>
-            <Route path="/pictures/:picture_id" />
+          <div id="pictures-home">
+            <li>
+              <img className="non-show-image" src={less_mtn} alt="logo" />
+              <Route path="/pictures/:picture_id" />
+            </li>
+            <li>
+              <img className="non-show-image" src={angry_montara} alt="logo" />
+              <Route path="/pictures/:picture_id" />
+            </li>
+            <li>
+              <img
+                className="non-show-image"
+                src={angry_grey_whale}
+                alt="logo"
+              />
+              <Route path="/pictures/:picture_id" />
+            </li>
+            <li>
+              <img className="non-show-image" src={ledge} alt="logo" />
+              <Route path="/pictures/:picture_id" />
+            </li>
           </div>
-          <li>
-            <img className="non-show-image" src={less_mtn} alt="logo" />
-            <Route path="/pictures/:picture_id" />
-          </li>
-          <li>
-            <img className="non-show-image" src={angry_montara} alt="logo" />
-            <Route path="/pictures/:picture_id" />
-          </li>
-          <li>
-            <img className="non-show-image" src={angry_grey_whale} alt="logo" />
-            <Route path="/pictures/:picture_id" />
-          </li>
-          <li>
-            <img className="non-show-image" src={ledge} alt="logo" />
-            <Route path="/pictures/:picture_id" />
-          </li>
         </BrowserRouter>
       </div>
     );

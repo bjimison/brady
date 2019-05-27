@@ -16,3 +16,12 @@
 .title:hover {
   color: aliceblue;
 }
+
+li {
+  list-style-type: none;
+}
+
+#pictures-home {
+  display: flex;
+  flex-wrap: wrap;
+}
