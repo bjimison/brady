@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { BrowserRouter, Route, withRouter } from "react-router-dom";
 
 import less_mtn from "../images/camping:bigsur:cimbing/less_mtn.JPG";
 import angry_montara from "../images/Big_Wave_Day/angry_Montara_wall.JPG";
@@ -11,10 +12,27 @@ class Pictures extends Component {
     return (
       <div>
         <h2 className="title">Pictures</h2>
-        <img className="non-show-image" src={less_mtn} alt="logo" />
-        <img className="non-show-image" src={angry_montara} alt="logo" />
-        <img className="non-show-image" src={angry_grey_whale} alt="logo" />
-        <img className="non-show-image" src={ledge} alt="logo" />
+        <BrowserRouter>
+          <div>
+            <Route path="/pictures/:picture_id" />
+          </div>
+          <li>
+            <img className="non-show-image" src={less_mtn} alt="logo" />
+            <Route path="/pictures/:picture_id" />
+          </li>
+          <li>
+            <img className="non-show-image" src={angry_montara} alt="logo" />
+            <Route path="/pictures/:picture_id" />
+          </li>
+          <li>
+            <img className="non-show-image" src={angry_grey_whale} alt="logo" />
+            <Route path="/pictures/:picture_id" />
+          </li>
+          <li>
+            <img className="non-show-image" src={ledge} alt="logo" />
+            <Route path="/pictures/:picture_id" />
+          </li>
+        </BrowserRouter>
       </div>
     );
   }
