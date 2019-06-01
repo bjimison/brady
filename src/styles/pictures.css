@@ -1,7 +1,7 @@
 .non-show-image {
-  height: 25%;
-  width: 25%;
-  margin: 2rem;
+  height: 160px;
+  width: 200px;
+  margin: 70px;
 }
 
 .title {
@@ -23,5 +23,11 @@ li {
 
 #pictures-home {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  justify-content: space-around;
+}
+
+#pictures-home li {
+  text-align: center;
 }
