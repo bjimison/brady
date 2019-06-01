@@ -11,7 +11,6 @@ class Pictures extends Component {
   render() {
     return (
       <div>
-        <h2 className="title">Pictures</h2>
         <BrowserRouter>
           <div id="pictures-home">
             <li>

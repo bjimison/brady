@@ -1,0 +1,14 @@
+* {
+  color: aliceblue;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+li {
+  margin-top: 3rem;
+  display: inline-block;
+}
