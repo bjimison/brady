@@ -1,14 +1,22 @@
-* {
-  color: aliceblue;
-}
-
 #navbar {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  background-color: beige;
+  height: 60px;
 }
 
 li {
-  margin-top: 3rem;
-  display: inline-block;
+  align-self: center;
+  color: black;
+  font-size: 24px;
+}
+
+li:hover {
+  color: #666666;
+  transition: all 0.7s ease;
+  -webkit-transition: all 0.7s ease;
+  -moz-transition: all 0.7s ease;
+  -ms-transition: all 0.7s ease;
+  -o-transition: all 0.7s ease;
 }
