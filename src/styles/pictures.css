@@ -2,6 +2,17 @@
   height: 160px;
   width: 200px;
   margin: 70px;
+  transition: height 1s ease;
+  z-index: 0;
+  -webkit-transition: height 1s ease;
+  -moz-transition: height 1s ease;
+  -ms-transition: height 1s ease;
+  -o-transition: height 1s ease;
+}
+
+.non-show-image:hover {
+  height: 180px;
+  z-index: 100;
 }
 
 .title {
@@ -24,7 +35,7 @@ li {
 #pictures-home {
   display: flex;
   flex-direction: row;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
