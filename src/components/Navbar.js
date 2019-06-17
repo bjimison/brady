@@ -8,6 +8,7 @@ class Navbar extends Component {
     return (
       <div id="navbar">
         <li>Pictures</li>
+        <i className="fa fa-camera" />
         <li>Videos</li>
       </div>
     );
