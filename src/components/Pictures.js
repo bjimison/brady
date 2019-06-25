@@ -13,6 +13,11 @@ import people from "../images/Big_Sur/people_BigSur_Clouds.JPG";
 import "../styles/pictures.css";
 
 class Pictures extends Component {
+  pictureSelect = () => {
+    let picture;
+    // grab id from selected picture --> event.targer.id
+  };
+
   render() {
     return (
       <div>
